@@ -12,7 +12,8 @@
 
 .nav-title, [href = "#"] {
     color: whitesmoke;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .nav-title, .active {
