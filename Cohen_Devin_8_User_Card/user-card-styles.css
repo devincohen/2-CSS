@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    position: absolute;
+    width: 950px;
+    margin: 100px;
+    background-color: white;
+}
+
+.body {
+    border-width: 3px;
+    border-color: silver;
+    border-style: solid;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: none;
+    padding: 15px;
+}
+
+.header {
+    width: inherit;
+    height: 200px;
+    background-color: rgb(3, 161, 188);
+    border-width: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+div.body >* {
+    padding-bottom: 10px;
+}
+
+.spacer {
+    height: 150px;
+}
+
+#user-pic {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 200px;
+    background-color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.location >*, .settings >* {
+    padding-right: 15px;
+}
+
+#map {
+    height: 20px;
+}
+
+#gear {
+    height: 15px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+}
