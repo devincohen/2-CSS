@@ -1,0 +1,35 @@
+h1 {
+    background-color: darkslategray;
+    color: bisque;
+}
+
+.green {
+    background-color: mediumaquamarine;
+    color: whitesmoke;
+}
+
+.red {
+    background-color: #b32d00;
+}
+
+.purple {
+    background-color: #7300e6;
+}
+
+#black {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    /* font-style: italic;  */
+}
+
+a[id $="dy"] {
+    font-size: 40px;
+}
+
+.text p{
+    font-style: italic;
+}
+
