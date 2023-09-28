@@ -1,0 +1,35 @@
+h1, #credit {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslateblue;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.row {
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#row1 {
+    background-color: forestgreen;
+}
+
+#row2 {
+    background-color: gold;
+}
+
+#row3 {
+    background-color: black;
+}
+
+.row img {
+    width: auto;
+    margin: 20px;
+}
+
